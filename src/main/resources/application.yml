@@ -1,0 +1,16 @@
+# Port
+server:
+  port: 8090
+  error:
+    include-message: always
+  # Database
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: default 
+  datasource:
+    url: jdbc:mysql://localhost:3306/otp_myobd?allowPublicKeyRetrieval=true&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver

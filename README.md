@@ -8,5 +8,5 @@ An application which is used to:
 To install it with docker, we need to :
 * build and tag an image using the dockerfile contains in project. In this case we used the tag name opt_myo
 ```
-$ docker build -t opt_myo OPT:1.0.0.
+$ docker build -t opt_myo Opt:1.0.0.
 ```
